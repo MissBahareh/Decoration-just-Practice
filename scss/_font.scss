@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../font/Vazir-Black.eot");
+    src: url("../font/Vazir-Black.eot?#iefix") format("embedded-opentype"),
+      url("../font/Vazir-Black.woff2") format("woff2"),
+      url("../font/Vazir-Black.woff") format("woff"),
+      url("../font/Vazir-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Vazir;
+    src: url("../font/Vazir-Medium.eot");
+    src: url("../font/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+      url("../font/Vazir-Medium.woff2") format("woff2"),
+      url("../font/Vazir-Medium.woff") format("woff"),
+      url("../font/Vazir-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: IranNastaliq;
+    src: url(../font/IranNastaliq.eot);
+    src: url(../font/IranNastaliq.ttf);
+    src: url(../font/IranNastaliq.woff);
+  }
+  @font-face {
+    font-family: GreatVibes;
+    src: url(../font/en/GreatVibes-Regular.ttf);
+  }

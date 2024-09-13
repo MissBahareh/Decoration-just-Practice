@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Vazir;
+    src: url("../font/Vazir-Black.eot");
+    src: url("../font/Vazir-Black.eot?#iefix") format("embedded-opentype"),
+      url("../font/Vazir-Black.woff2") format("woff2"),
+      url("../font/Vazir-Black.woff") format("woff"),
+      url("../font/Vazir-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Vazir;
+    src: url("../font/Vazir-Medium.eot");
+    src: url("../font/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+      url("../font/Vazir-Medium.woff2") format("woff2"),
+      url("../font/Vazir-Medium.woff") format("woff"),
+      url("../font/Vazir-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: IranNastaliq;
+    src: url(../font/IranNastaliq.eot);
+    src: url(../font/IranNastaliq.ttf);
+    src: url(../font/IranNastaliq.woff);
+  }
+  @font-face {
+    font-family: GreatVibes;
+    src: url(../font/en/GreatVibes-Regular.ttf);
+  }
+.popupClassDeactive{
+    display: none;
+}
+.popupClass{
+    font-family: Vazir;
+    position: fixed;
+    background-color: #f6c487;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    width: 60%;
+    height: 75vh;
+    top: 8%;
+    right: 50%;
+    transform: translate(50% ,10%);
+    z-index: 200;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+    overflow: hidden;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    .content001{
+        opacity: 0;
+    }
+    .content01{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: chartreuse;
+        .divImg{
+            width: 49%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(245, 245, 245, 0);
+            // background-color: rgb(136,82,86);
+
+            img{
+                width: 100%;
+                border: 1px solid rgba(245, 245, 245, 0);
+                display: flex;
+                mix-blend-mode: multiply;
+                
+               
+            }
+        }
+        .divContent01{
+            width: 49%;
+            height: 100%;
+            // background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+            color: black;
+            h2{
+                margin: 20px 0 50px;
+                // background-color: blue;
+                padding: 5px;
+            }
+            span{
+                margin: 20px 0;
+                // background-color: blue;
+                padding: 5px;
+                font-size: 18px;
+            }
+            button{
+                margin: 10px 0;
+                background-color: rgba(245, 245, 245, 0.347);
+                padding: 10px;
+                border: 2px solid orangered;
+                border-radius: 10px;
+            }
+
+
+        }
+    }
+    .btnClose{
+        height: 10%;
+        button{
+            width: 3%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f6c487;
+            border: 1px solid rgba(136, 82, 86, 0);
+            padding: 0;
+            svg{
+                display: flex;
+                width: 100%;
+                margin: 0;
+
+            }
+        }
+
+    }
+    .coverPop01{
+        opacity: 0;
+    }
+    .coverPop{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 10%;
+        background-image: url(../gif/thank_you_gift-50-off-discount_1-01_gif_v2.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(15deg);
+        border: 2px solid whitesmoke;
+        .contentCover{
+            // background-color: aqua;
+            width: 50%;
+            height: 18vh;
+            transform: rotate(-15deg);
+            position: fixed;
+            justify-content: flex-start;
+            align-items: flex-start;
+            right: 0%;
+            top: 5%;
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            font-weight: 800;
+
+            span{
+                border: 1px solid orangered;
+                margin: 20px 0;
+                padding: 10px 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                height: 6vh;
+                background-color: rgba(245, 245, 245, 0.347);
+                padding: 10px;
+                border: 2px solid orangered;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+        
+    }
+
+}
