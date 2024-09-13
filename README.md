@@ -1,5 +1,5 @@
 <h1>
-  پروژه عملی  Web Design 3
+  پروژه عملی -  Web Design 3
 </h1>
 <p>
   موارد استفاده شده در پروژه : HTML - CSS - Sass - Bootstrap - JavaScript
